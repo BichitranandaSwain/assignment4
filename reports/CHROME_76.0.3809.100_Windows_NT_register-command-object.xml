@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="5"
+            tests="1">
+
+  <testsuite name="register-command-object"
+    errors="5" failures="5" hostname="" id="" package="register-command-object" skipped="0"
+    tests="1" time="28.89" timestamp="">
+  
+    <testcase name="Try to login with a username and no password" classname="register-command-object" time="28.89" assertions="7">
+
+    
+
+      <failure message="Testing if element &lt;Element [name=@error]&gt; is visible. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Page.validateError (D:\AutomationTraings\nightwatch\assignments\assignment4\page-objects\commandsRegister.js:21:22)
+    at Object.Try to login with a username and no password (D:\AutomationTraings\nightwatch\assignments\assignment4\tests\register-command-object.js:32:8)</failure>
+
+      <failure message="Testing if element &lt;Element [name=@error]&gt; contains text: &#34;User name or password is Invalid&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;User name or password is Invalid&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Page.validateError (D:\AutomationTraings\nightwatch\assignments\assignment4\page-objects\commandsRegister.js:22:12)
+    at Object.Try to login with a username and no password (D:\AutomationTraings\nightwatch\assignments\assignment4\tests\register-command-object.js:32:8)</failure>
+
+      <failure message="Testing if value of &lt;Element [name=@username]&gt; contains: &#34;&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Page.validateError (D:\AutomationTraings\nightwatch\assignments\assignment4\page-objects\commandsRegister.js:23:12)
+    at Object.Try to login with a username and no password (D:\AutomationTraings\nightwatch\assignments\assignment4\tests\register-command-object.js:32:8)</failure>
+
+      <failure message="Testing if value of &lt;Element [name=@password]&gt; contains: &#34;&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Page.validateError (D:\AutomationTraings\nightwatch\assignments\assignment4\page-objects\commandsRegister.js:24:12)
+    at Object.Try to login with a username and no password (D:\AutomationTraings\nightwatch\assignments\assignment4\tests\register-command-object.js:32:8)</failure>
+
+      <failure message="Testing if value of &lt;Element [name=@Email]&gt; contains: &#34;&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;true&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Page.validateError (D:\AutomationTraings\nightwatch\assignments\assignment4\page-objects\commandsRegister.js:25:12)
+    at Object.Try to login with a username and no password (D:\AutomationTraings\nightwatch\assignments\assignment4\tests\register-command-object.js:32:8)</failure>
+
+    <failure message="    at Page.validateError (D:\AutomationTraings\nightwatch\assignments\assignment4\page-objects\commandsRegister.js:25:12)">    at Object.Try to login with a username and no password (D:\AutomationTraings\nightwatch\assignments\assignment4\tests\register-command-object.js:32:8)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
